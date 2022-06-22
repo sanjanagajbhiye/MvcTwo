@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Login</h2>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Login.js"></script>
+
+
+<p>Name:   <input type = "text" id = "txtName" /> </p>
+<br />
+<p>Contact: <input type = "text" id = "txtContact" /> </p>
+<br />
+<input type = "button" id = "btnSubmit" value = "Submit" onclick = "SaveMvcTwo()" />
+
+<div class="col-sm-2">
+    <table id="tblLogin" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
